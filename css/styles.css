@@ -16,6 +16,49 @@ h3, h1, h4, h2 {
   padding-bottom: 20px;
 }
 
+#ink-well {
+  position: absolute;
+  left: 1100px;
+  top: 400px;
+  width: 148px;
+  height: 132px;
+  z-index: -1;
+  background-image: url("../img/bottle.jpg");
+}
+
+.parallax {
+  position: absolute;
+  top: 548px;
+  left: 1100px;
+  height: 200px;
+  width: 100px;
+  background: url("../img/drip.png") repeat fixed 100%;
+}
+
+.boxes {
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+.first-odd-box {
+  height: 100px;
+  width: 100px;
+  opacity: 0.0;
+}
+.prompt-box {
+  background-color: black;
+  height: 100px;
+  width: 200px;
+  margin-bottom: 100px;
+  color: white;
+  font-family: 'Amatic SC', cursive;
+  font-size: 40px;
+  text-align: center;
+  opacity: 0.0;
+  padding: 50px 0;
+}
+
 h3 {
   font-size: 60px;
 }
